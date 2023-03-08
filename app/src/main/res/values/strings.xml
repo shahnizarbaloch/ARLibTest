@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ARLibTest</string>
+    <string name="arlib_apps">ARLib Apps</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="empty_values_are_not_accepted">Empty values are not accepted.</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="dose">Dose</string>
+    <string name="strength">Strength</string>
+    <string name="medicine_details">Medicine Details</string>
+</resources>

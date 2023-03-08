@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="4dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_medicine_name"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                tools:text="Medicine"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="4dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="@string/dose"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_medicine_dose"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                tools:text="Dose"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="4dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="@string/strength"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_medicine_strength"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                tools:text="Strength"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
