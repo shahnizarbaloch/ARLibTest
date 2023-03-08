@@ -70,4 +70,5 @@ class HomeRepo @Inject constructor (@ApplicationContext appContext: Context) {
     fun insertProfile(obj: Profile) {
         dao.insertProfile(obj)
     }
+
 }

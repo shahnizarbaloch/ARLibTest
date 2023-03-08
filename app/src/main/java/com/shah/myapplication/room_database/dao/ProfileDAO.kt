@@ -9,5 +9,4 @@ interface ProfileDAO {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun insertProfile(profile: Profile)
 
-
 }
